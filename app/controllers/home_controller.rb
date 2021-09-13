@@ -1,6 +1,6 @@
 class HomeController < ApplicationController
   def landing
 
-    # render json: {name: "landing page data"}
+    render json: {route: "home"}
   end
 end
